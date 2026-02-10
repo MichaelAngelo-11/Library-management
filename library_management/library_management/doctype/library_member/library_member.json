@@ -17,12 +17,14 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "First Name",
+   "permlevel": 1,
    "reqd": 1
   },
   {
    "fieldname": "last_name",
    "fieldtype": "Data",
-   "label": "Last Name "
+   "label": "Last Name ",
+   "permlevel": 1
   },
   {
    "fieldname": "email",
@@ -40,7 +42,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-02-09 16:41:33.622477",
+ "modified": "2026-02-10 17:08:04.640857",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Library Member",
@@ -58,6 +60,38 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Librarian",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Library Member",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Library Member",
+   "select": 1,
+   "share": 1
   }
  ],
  "row_format": "Dynamic",
