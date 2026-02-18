@@ -1,57 +1,29 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:MEM-{#####}",
- "creation": "2026-02-09 16:22:07.234566",
+ "autoname": "field:plan",
+ "creation": "2026-02-12 16:47:50.104512",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "first_name",
-  "last_name",
-  "email",
-  "phone",
-  "full_name"
+  "plan"
  ],
  "fields": [
   {
-   "fieldname": "first_name",
+   "fieldname": "plan",
    "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "First Name",
-   "reqd": 1
-  },
-  {
-   "fieldname": "last_name",
-   "fieldtype": "Data",
-   "label": "Last Name "
-  },
-  {
-   "fieldname": "email",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Email",
-   "reqd": 1
-  },
-  {
-   "fieldname": "phone",
-   "fieldtype": "Data",
-   "label": "Phone"
-  },
-  {
-   "fieldname": "full_name",
-   "fieldtype": "Data",
-   "label": "Full name",
-   "read_only": 1
+   "label": "Plan",
+   "unique": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-02-18 16:53:51.396052",
+ "modified": "2026-02-12 17:01:46.674550",
  "modified_by": "Administrator",
  "module": "Library Management",
- "name": "Library Member",
- "naming_rule": "Expression",
+ "name": "Membership Plan",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -85,17 +57,6 @@
    "read": 1,
    "report": 1,
    "role": "Library Member",
-   "share": 1
-  },
-  {
-   "email": 1,
-   "export": 1,
-   "permlevel": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Library Member",
-   "select": 1,
    "share": 1
   }
  ],
